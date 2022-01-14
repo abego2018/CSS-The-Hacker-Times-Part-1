@@ -72,7 +72,7 @@ main > p{
 }
 
 section > p{
-    width: 95%;
+    width: 95%; 
     text-align: justify;
     margin: auto;
   
@@ -111,3 +111,22 @@ nav{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
+
+/*BONUS - Using grid to add more articles*/
+
+/* 
+********Leaving here to finish at a later time*******
+main, section{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(150px, auto)
+
+}
+
+main{ 
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+*/
+
