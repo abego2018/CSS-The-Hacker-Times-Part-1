@@ -1,34 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-header > h1 {
-    text-align:center;
-    font-family:"Abril Fatface";
-    text-shadow:1px 1px 1px gray;
+.newspaper-container{
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px silver;
+    background-color: white;
+    padding-bottom:10px;
 }
+
+header > h1 {
+    text-align: center;
+    font-family: "Abril Fatface";
+    text-shadow: 1px 1px 1px gray;
+}
+
+body{
+    font-family: "Source Sans Pro";
+    background-color: #eee;
+}
+
 .navlist > li{
-    display:inline;
-    list-style-type:none;
-    font-family:"Source Sans Pro";
-    padding:5px;
+    display: inline;
+    list-style-type: none;
+    font-family: "Source Sans Pro";
+    padding: 2px;
     line-height: 15px;
+    color: #777;
 }
 
 .journalist {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 /*remove underline from links*/
 a{
-    text-decoration:none;
-    color:#333;
+    text-decoration: none;
+    color: #333;
+    
 }
 
 .date, p{
-    font-family:"Source Sans Pro";
+    font-family: "Source Sans Pro";
 }
+
 .more-articles{
-    display:inline-block;
-    width:49%;
+    display: inline-block;
+    width: 49%;
+    margin:auto;
+
 }
 
 .arttitle{
@@ -39,29 +58,56 @@ a{
     width: 100%;
 }
 .image{
-    width:80%;
+    width: 100%;
 }
 
 main{
-    width:80%;
-    text-align:justify;
+    width: 98%;
+    text-align: justify;
 }
 
+main > p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 section > p{
-    width:80%;
-    text-align:justify;
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+  
 }
 
 .one,.two{
-    margin:10px;
+    margin: 10px;
 }
 
-
+/* This is from Hacker Times part II */
 nav{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    position:sticky; 
-    top:0;
+    position: sticky; 
+    top: 0;
     background-color: white;
+}
+
+/*BONUS - Adding Footer */
+
+.footer > li{
+    display: inline;
+    list-style-type: none;
+    font-family: "Source Sans Pro";
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 15px;
+    color: #777;
+    font-size:small;
+    width:80%;
+    
+}
+.footer{
+    text-align:center;
+    padding:0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
